@@ -1,0 +1,22 @@
+Package: UCRBStandardFigs
+Type: Package
+Title: Functions for Creating Standardized Figures
+Version: 0.1.0
+Authors@R: person("Christopher", , "Michaud", "christopher_michaud@fws.gov", role = c("aut", "cre"))
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: Functions to process data queried from STReaMS and generate 
+    standard figures and tables. This is intended for a very specific usecase.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    dataRetrieval,
+    dplyr,
+    ggplot2,
+    knitr,
+    lubridate,
+    UCRBDataTools
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Depends: 
+    R (>= 2.10)
